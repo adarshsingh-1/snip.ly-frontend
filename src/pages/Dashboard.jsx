@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import LinkShortener from '../components/LinkShortener';
-import LinkList from '../components/LInkList';
+import LinkList from '../components/LinkList';
 import { useLinks } from '../hooks/useLinks';
 
 export default function Dashboard() {
